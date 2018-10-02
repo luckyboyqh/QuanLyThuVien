@@ -51,10 +51,10 @@ namespace QuanLyThuVien
             DevExpress.UserSkins.OfficeSkins.Register();
             DevExpress.XtraBars.Helpers.SkinHelper.InitSkinGallery(skinRibbonGalleryBarItem1, true);
 
-            panelCha.Controls.Clear();
-            ucFrmGioiThieu frm = new ucFrmGioiThieu();
-            frm.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelCha.Controls.Add(frm);
+            //panelCha.Controls.Clear();
+            //ucFrmGioiThieu frm = new ucFrmGioiThieu();
+            //frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            //panelCha.Controls.Add(frm);
         }
         
 
@@ -69,26 +69,26 @@ namespace QuanLyThuVien
        
         private void barBtnQLSach_ItemClick(object sender, ItemClickEventArgs e)
         {
-            panelCha.Controls.Clear();
-            ucFrmQLSach frm = new ucFrmQLSach();
-            frm.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelCha.Controls.Add(frm);
+            //panelCha.Controls.Clear();
+            //ucFrmQLSach frm = new ucFrmQLSach();
+            //frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            //panelCha.Controls.Add(frm);
         }
 
         private void barButtonItem2_ItemClick(object sender, ItemClickEventArgs e)
         {
-            panelCha.Controls.Clear();
-            ucFrmQLPhieuMuon frm = new ucFrmQLPhieuMuon();
-            frm.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelCha.Controls.Add(frm);
+            //panelCha.Controls.Clear();
+            //ucFrmQLPhieuMuon frm = new ucFrmQLPhieuMuon();
+            //frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            //panelCha.Controls.Add(frm);
         }
 
         private void barButtonItem3_ItemClick(object sender, ItemClickEventArgs e)
         {
-            panelCha.Controls.Clear();
-            ucFrmQLPhieuTra frm = new ucFrmQLPhieuTra();
-            frm.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelCha.Controls.Add(frm);
+            //panelCha.Controls.Clear();
+            //ucFrmQLPhieuTra frm = new ucFrmQLPhieuTra();
+            //frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            //panelCha.Controls.Add(frm);
         }
 
         private void barBtbDXuat_ItemClick(object sender, ItemClickEventArgs e)
@@ -104,10 +104,10 @@ namespace QuanLyThuVien
 
         private void barBtnTimKiemSach_ItemClick(object sender, ItemClickEventArgs e)
         {
-            panelCha.Controls.Clear();
-            ucFrmTimKiemSach frm = new ucFrmTimKiemSach();
-            frm.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelCha.Controls.Add(frm);
+            //panelCha.Controls.Clear();
+            //ucFrmTimKiemSach frm = new ucFrmTimKiemSach();
+            //frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            //panelCha.Controls.Add(frm);
         }
 
         private void barbtnThanhVien_ItemClick(object sender, ItemClickEventArgs e)
@@ -127,33 +127,33 @@ namespace QuanLyThuVien
         }
         private void bar_SachDangMuon_ItemClick(object sender, ItemClickEventArgs e)
         {
-            panelCha.Controls.Clear();
-            ucFrmSachDangMuon frm = new ucFrmSachDangMuon(tdn);
-            frm.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelCha.Controls.Add(frm);
+            //panelCha.Controls.Clear();
+            //ucFrmSachDangMuon frm = new ucFrmSachDangMuon(tdn);
+            //frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            //panelCha.Controls.Add(frm);
         }
 
         private void bar_LichSu_ItemClick(object sender, ItemClickEventArgs e)
         {
-            panelCha.Controls.Clear();
-            ucFrmSachDaTra frm = new ucFrmSachDaTra(tdn);
-            frm.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelCha.Controls.Add(frm);
+            //panelCha.Controls.Clear();
+            //ucFrmSachDaTra frm = new ucFrmSachDaTra(tdn);
+            //frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            //panelCha.Controls.Add(frm);
         }
         private void barBtnDangMuon_ItemClick(object sender, ItemClickEventArgs e)
         {
-            panelCha.Controls.Clear();
-            ucFrmDangMuon frm = new ucFrmDangMuon();
-            frm.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelCha.Controls.Add(frm);
+            //panelCha.Controls.Clear();
+            //ucFrmDangMuon frm = new ucFrmDangMuon();
+            //frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            //panelCha.Controls.Add(frm);
         }
 
         private void barBtnDaMuon_ItemClick(object sender, ItemClickEventArgs e)
         {
-            panelCha.Controls.Clear();
-            ucFrmDaTra frm = new ucFrmDaTra();
-            frm.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelCha.Controls.Add(frm);
+            //panelCha.Controls.Clear();
+            //ucFrmDaTra frm = new ucFrmDaTra();
+            //frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            //panelCha.Controls.Add(frm);
         }
         private int i = 1;
         private bool ck = true;
@@ -188,18 +188,18 @@ namespace QuanLyThuVien
 
         private void nBI_SDM_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
         {
-            panelCha.Controls.Clear();
-            ucFrmSachDangMuon frm = new ucFrmSachDangMuon(tdn);
-            frm.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelCha.Controls.Add(frm);
+            //panelCha.Controls.Clear();
+            //ucFrmSachDangMuon frm = new ucFrmSachDangMuon(tdn);
+            //frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            //panelCha.Controls.Add(frm);
         }
 
         private void nBI_SDT_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
         {
-            panelCha.Controls.Clear();
-            ucFrmSachDaTra frm = new ucFrmSachDaTra(tdn);
-            frm.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelCha.Controls.Add(frm);
+            //panelCha.Controls.Clear();
+            //ucFrmSachDaTra frm = new ucFrmSachDaTra(tdn);
+            //frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            //panelCha.Controls.Add(frm);
         }
 
         private void nBI_QLTV_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
@@ -212,58 +212,58 @@ namespace QuanLyThuVien
 
         private void nBI_QLS_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
         {
-            panelCha.Controls.Clear();
-            ucFrmQLSach frm = new ucFrmQLSach();
-            frm.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelCha.Controls.Add(frm);
+            //panelCha.Controls.Clear();
+            //ucFrmQLSach frm = new ucFrmQLSach();
+            //frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            //panelCha.Controls.Add(frm);
         }
 
         private void nBI_QLPM_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
         {
-            panelCha.Controls.Clear();
-            ucFrmQLPhieuMuon frm = new ucFrmQLPhieuMuon();
-            frm.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelCha.Controls.Add(frm);
+            //panelCha.Controls.Clear();
+            //ucFrmQLPhieuMuon frm = new ucFrmQLPhieuMuon();
+            //frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            //panelCha.Controls.Add(frm);
         }
 
         private void nBI_QLPT_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
         {
-            panelCha.Controls.Clear();
-            ucFrmQLPhieuTra frm = new ucFrmQLPhieuTra();
-            frm.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelCha.Controls.Add(frm);
+            //panelCha.Controls.Clear();
+            //ucFrmQLPhieuTra frm = new ucFrmQLPhieuTra();
+            //frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            //panelCha.Controls.Add(frm);
         }
 
         private void nBI_TKDM_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
         {
-            panelCha.Controls.Clear();
-            ucFrmDangMuon frm = new ucFrmDangMuon();
-            frm.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelCha.Controls.Add(frm);
+            //panelCha.Controls.Clear();
+            //ucFrmDangMuon frm = new ucFrmDangMuon();
+            //frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            //panelCha.Controls.Add(frm);
         }
 
         private void nBI_TKDT_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
         {
-            panelCha.Controls.Clear();
-            ucFrmDaTra frm = new ucFrmDaTra();
-            frm.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelCha.Controls.Add(frm);
+            //panelCha.Controls.Clear();
+            //ucFrmDaTra frm = new ucFrmDaTra();
+            //frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            //panelCha.Controls.Add(frm);
         }
 
         private void barbtn_About_ItemClick(object sender, ItemClickEventArgs e)
         {
-            panelCha.Controls.Clear();
-            ucFrmGioiThieu frm = new ucFrmGioiThieu();
-            frm.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelCha.Controls.Add(frm);
+            //panelCha.Controls.Clear();
+            //ucFrmGioiThieu frm = new ucFrmGioiThieu();
+            //frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            //panelCha.Controls.Add(frm);
         }
 
         private void barBtnHDSD_ItemClick(object sender, ItemClickEventArgs e)
         {
-            panelCha.Controls.Clear();
-            ucFrmHuongDanSuDung frm = new ucFrmHuongDanSuDung();
-            frm.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelCha.Controls.Add(frm);
+            //panelCha.Controls.Clear();
+            //ucFrmHuongDanSuDung frm = new ucFrmHuongDanSuDung();
+            //frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            //panelCha.Controls.Add(frm);
         }
 
         private void fTableManage_Load(object sender, EventArgs e)
