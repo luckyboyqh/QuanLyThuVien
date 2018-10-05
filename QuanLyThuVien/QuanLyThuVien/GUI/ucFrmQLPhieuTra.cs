@@ -58,7 +58,6 @@ namespace QuanLyThuVien
                 lb_Trung.Visible = false;
             }
         }
-
         private void btnSua_Click(object sender, EventArgs e)
         {
             if (txt_MP.Text != "")
