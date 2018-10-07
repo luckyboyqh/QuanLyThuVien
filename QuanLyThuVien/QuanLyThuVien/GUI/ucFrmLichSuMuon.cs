@@ -36,9 +36,5 @@ namespace QuanLyThuVien
             else
                 gridControl1.DataSource = lsmBus.TimKiem(txtTimTenSach.Text, tdn);
         }
-
-        
-
-       
     }
 }
