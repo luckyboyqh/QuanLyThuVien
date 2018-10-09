@@ -16,9 +16,6 @@ namespace QuanLyThuVien
         {
             InitializeComponent();
         }
-        private void panelControl1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+        
     }
 }
