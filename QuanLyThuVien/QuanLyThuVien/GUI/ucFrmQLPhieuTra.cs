@@ -128,12 +128,10 @@ namespace QuanLyThuVien
                
             }
         }
-
         private void btnClean_Click(object sender, EventArgs e)
         {
             ResetGridview();
         }
-
       
     }
 }
